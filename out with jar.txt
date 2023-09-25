@@ -1,0 +1,10 @@
+D:\git\tst\com.tugalsan.tst.input>runJar.bat
+
+d:
+
+cd D:\git\gvm\com.tugalsan.tst.input
+The system cannot find the path specified.
+
+java --enable-preview --add-modules jdk.incubator.vector -jar target/com.tugalsan.tst.input-1.0-SNAPSHOT-jar-with-dependencies.jar   
+WARNING: Using incubator modules: jdk.incubator.vector
+main size java.awt.Rectangle[x=0,y=0,width=1280,height=720]
