@@ -1,5 +1,6 @@
 package com.tugalsan.tst.input;
 
+import com.tugalsan.api.log.server.TS_Log;
 import java.awt.AWTException;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
@@ -15,12 +16,12 @@ import javax.imageio.ImageIO;
 
 public class Main {
 
-//    private static final TS_Log d = TS_Log.of(Main.class);
+    private static final TS_Log d = TS_Log.of(Main.class);
     //cd C:\me\codes\com.tugalsan\tst\com.tugalsan.tst.input
     //java --enable-preview --add-modules jdk.incubator.vector -jar target/com.tugalsan.tst.input-1.0-SNAPSHOT-jar-with-dependencies.jar
     //java -jar target/com.tugalsan.tst.input-1.0-SNAPSHOT-jar-with-dependencies.jar
     public static void main(String... s) {
-
+        
         var screenRectangle = screenRectangle();
         log.ci("main", "screenRectangle", screenRectangle);
         var scaleFactor = scaleFactor();
